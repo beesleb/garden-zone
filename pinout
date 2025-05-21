@@ -1,0 +1,15 @@
+| **Arduino Pin** | **Function**              | **Connected To**                              |
+| --------------- | ------------------------- | --------------------------------------------- |
+| `A1`            | Zone 1 Relay Control      | IN1 on Relay Module                           |
+| `A2`            | Zone 2 Relay Control      | IN2 on Relay Module                           |
+| `A3`            | Zone 3 Relay Control      | IN3 on Relay Module                           |
+| `D2`            | Zone 4 Relay Control      | IN4 on Relay Module                           |
+| `D3`            | Zone 5 Relay Control      | IN5 (if using 8-channel relay)                |
+| `A6`            | Zone 6 Relay Control      | IN6 (if using 8-channel relay)                |
+| `A7`            | Zone 7 Relay Control      | IN7 (if using 8-channel relay)                |
+| `D4`            | **TEST Button (Input)**   | One side of TEST button (other side to GND)   |
+| `D5`            | **CANCEL Button (Input)** | One side of CANCEL button (other side to GND) |
+| `A4 (SDA)`      | RTC I²C Data              | DS3231 SDA                                    |
+| `A5 (SCL)`      | RTC I²C Clock             | DS3231 SCL                                    |
+| `3V3 or 5V`     | Power for RTC module      | DS3231 VCC                                    |
+| `GND`           | Ground                    | Common GND (RTC, buttons, relay GND)          |
